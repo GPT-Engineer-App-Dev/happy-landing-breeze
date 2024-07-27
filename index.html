@@ -13,4 +13,68 @@
   <!-- insert your changes here -->
 </body>
 
+</html><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Landing Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      .landing-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      h1 {
+        font-size: 2.5rem;
+        color: #333;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      section {
+        flex-basis: 48%;
+        margin-bottom: 2rem;
+      }
+      .features ul {
+        padding-left: 1.5rem;
+      }
+      .cta {
+        text-align: center;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      footer {
+        text-align: center;
+        margin-top: 2rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
